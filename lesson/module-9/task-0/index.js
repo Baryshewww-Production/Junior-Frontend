@@ -6,8 +6,8 @@
 //     let newArray = [];
 //     let sumNegativeNumbers = inputArray.reduce((total, num) => (num < 0) ? total + num : total, 0);
 //     let countPositiveNumbers = inputArray
-//         .filter((num) => num > 0)
-//         .reduce((total, num) => total + num, 0);
+//         .filter((num) => num >= 0)
+//         .reduce((total, num) => total + 1, 0);
 //     newArray.push(countPositiveNumbers, sumNegativeNumbers);
 //     return newArray;
 // }
